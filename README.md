@@ -53,6 +53,15 @@ folder/
 └── 1_fake/
 ```
 
+---
+
+### Acknowledgment
+
+This work builds upon the ideas presented in the paper:  
+[**Multimodal Autoregressive Pre-training of Large Vision Encoders**](https://arxiv.org/abs/2411.14402), published by [Apple ML Research](https://github.com/apple/ml-aim).  
+We thank the authors for their excellent work and open-source contributions.
+
+
 
 
 
