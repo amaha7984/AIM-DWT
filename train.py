@@ -54,7 +54,12 @@ def train(rank, world_size, train_path, val_path, save_path, total_epochs, batch
     model = DDP(model.to(device), device_ids=[rank])
 
     criterion = nn.BCEWithLogitsLoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.001, eps=1e-8, weight_decay=0.0)
+    optimizer = optim.AdamW(
+        model.parameters(),
+        lr=0.0001,
+        betas=(0.9, 0.99),
+        eps=1e-8,
+        weight_decay=0.006,)
 
     best_acc = 0.0
     for epoch in range(total_epochs):

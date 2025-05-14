@@ -4,6 +4,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 import torch
 
+#These mean and std should be computed for each generated dataset in the MRI-Forensics dataset during training
 MEAN = (0.9214, 0.9470, 0.9204)
 STD = (0.0843, 0.0544, 0.0828)
 
