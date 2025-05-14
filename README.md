@@ -1,23 +1,25 @@
-# Autoregressive-Image-Classifier
-Multimodal Autoregressive Image Model for Binary Classification
+# Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis
 
-This repository contains the implementation of an **Autoregressive Image Model (AIM)** for **binary image classification**, built upon the ideas presented in the paper:  
-[**Multimodal Autoregressive Pre-training of Large Vision Encoders**](https://arxiv.org/abs/2411.14402), published by [Apple ML Research](https://github.com/apple/ml-aim).
 
----
+## Code
+Official implementation of the paper: "Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis"
 
-## Overview
+This repository introduces **AIM-DWT**, a novel forensic detection framework that integrates **Autoregressive Image Models (AIM)** with **Discrete Wavelet Transform (DWT)** for robust and generalizable detection of synthesized MRI images.
 
-This project leverages an **autoregressive, multimodal vision model** for binary classification tasks. The core model is designed for scalability and performance on multimodal vision-language tasks, following recent advancements in autoregressive pre-training. The code is implemented using **PyTorch** and supports **multi-GPU distributed training** using Distributed Data Parallel (DDP).
+### Overview
+The implementation covers two major components:
+1. Generative Methods for MRI Image Synthesis
+   Used to generate synthetic MRI images from various model families: GANs, Diffusion, and Autoregressive. Please refer to [`Generative_Methods`](Generative_Methods).
 
----
+2. AIM-DWT Forensic Detection
+   Please see below for code execution on training and testing
 
 ## Installation
 
 - Clone the repository:
    ```bash
-   git clone https://github.com/amaha7984/Autoregressive-Image-Classifier.git
-   cd AutoRegressive-Image-Classifier
+   git clone https://github.com/xxxxx/AIM-DWT.git
+   cd AIM-DWT
    ```
 - Create a Python virtual environment (optional)
   ```bash
