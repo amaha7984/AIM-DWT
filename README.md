@@ -42,11 +42,12 @@ The model's weight will be stored at `./saved_models/`.
 ```bash
 python3.9 test.py --test_path /path/to/test_dataset/ --checkpoint_path /path/to/saved_models/weight.pth
 ```
-Note: The training, validation, and test dataset directories should follow the ImageFolder structure:
+> Note: The training, validation, and test dataset directories should follow the ImageFolder structure:
+```
 folder/
 ├── 0_real/
 └── 1_fake/
-
+```
 
 
 
