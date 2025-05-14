@@ -32,12 +32,21 @@ The implementation covers two major components:
   ```bash
   pip3.9 install -r requirements.txt
   ```
-- Train the Autoregressive-Image-Classifier:
+- Train the AIM-DWT:
 ```bash
 python3.9 train.py --train_path ./datasets/train/ --val_path ./datasets/val/ --total_epochs 150 --batch_size 256
 ```
 The model's weight will be stored at `./saved_models/`.
-  
+
+- Test the AIM-DWT:
+```bash
+python3.9 test.py --test_path /path/to/test_dataset/ --checkpoint_path /path/to/saved_models/weight.pth
+```
+Note: The training, validation, and test dataset directories should follow the ImageFolder structure:
+folder/
+├── 0_real/
+└── 1_fake/
+
 
 
 
