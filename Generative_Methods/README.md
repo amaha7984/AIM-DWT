@@ -17,7 +17,7 @@ We trained the following generative models using their official code repositorie
 
 ### Autoregressive Generative Model
 4. **RAR (Randomized Autoregressive Generation)**  
-   Yu et al., "Randomized autoregressive visual generation," 2024. [Paper][(https://doi.org/10.48550/arXiv.2411.00776) • [Github](https://github.com/bytedance/1d-tokenizer)
+   Yu et al., "Randomized autoregressive visual generation," 2024. [Paper](https://doi.org/10.48550/arXiv.2411.00776) • [Github](https://github.com/bytedance/1d-tokenizer)
 
 ---
 
