@@ -8,10 +8,12 @@ This repository introduces **AIM-DWT**, a novel forensic detection framework tha
 
 ### Overview
 The implementation covers two major components:
-1. Generative Methods for MRI Image Synthesis
+1. Generative Methods for MRI Image Synthesis  
+   
    Used to generate synthetic MRI images from various model families: GANs, Diffusion, and Autoregressive. Please refer to [`Generative_Methods`](Generative_Methods).
 
-2. AIM-DWT Forensic Detection
+3. AIM-DWT Forensic Detection
+   
    Please see below for code execution on training and testing
 
 ## Installation
