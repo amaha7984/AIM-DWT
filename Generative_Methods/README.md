@@ -24,7 +24,7 @@ We trained the following generative models using their official code repositorie
 ### MRI-Forensics Dataset Access
 
 The dataset is hosted on Google Drive and can be accessed here:
-[Download MRI-Forensics Dataset](https://drive.google.com/file/d/1BARr3VLoprpR-k8q8-sG7__3OzOt3yaH/view?usp=sharing)
+[Download MRI-Forensics Dataset](https://drive.google.com/drive/folders/1e8EJVNTdYWAuSU2V7Sil6YBNalbJoapb?usp=drive_link)
 
 > **License:** By downloading this dataset, you agree to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
