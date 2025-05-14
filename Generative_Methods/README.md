@@ -8,15 +8,15 @@ We trained the following generative models using their official code repositorie
 1. **ProGAN**  
    Karras et al., "Progressive Growing of GANs for Improved Quality, Stability, and Variation," 2017. [Paper](https://arxiv.org/abs/1710.10196) • [Github](https://github.com/tkarras/progressive_growing_of_gans)
    
-3. **StyleGANv2-ADA**
+3. **StyleGANv2-ADA**  
    Karras et al., "Training Generative Adversarial Networks with Limited Data," 2020. [Paper](https://arxiv.org/abs/2006.06676) • [Github](https://github.com/NVlabs/stylegan2-ada-pytorch))
 
 ### Diffusion Model
-3. **DiT (Diffusion Transformer)** 
+3. **DiT (Diffusion Transformer)**  
    Peebles et al., "Scalable Diffusion Models with Transformers," 2023. [Paper](https://arxiv.org/abs/2212.09748) • [Github](https://github.com/facebookresearch/DiT)
 
 ### Autoregressive Generative Model
-4. **RAR (Randomized Autoregressive Generation)**
+4. **RAR (Randomized Autoregressive Generation)**  
    Yu et al., "Randomized autoregressive visual generation," 2024. [Paper][(https://doi.org/10.48550/arXiv.2411.00776) • [Github](https://github.com/bytedance/1d-tokenizer)
 
 ---
