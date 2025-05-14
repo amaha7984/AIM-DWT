@@ -19,3 +19,10 @@ This dataset and associated materials are provided "AS IS," without any guarante
 
 ### License URL
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/.
+
+
+# Forensics Detection Method
+The source code is released for non-commercial research and educational purposes only.
+Users are permitted to use, modify, and distribute the code for academic use, provided that this license notice is retained in all copies or substantial portions of the code.
+
+The code is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
