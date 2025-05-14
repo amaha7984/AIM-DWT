@@ -1,5 +1,9 @@
 # Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis
 
+<p align="center">
+ <img src="./docs/AIM-DWT_Architecture.png" alt="Preview" width="95%" />
+</p>
+
 
 ## Code
 Official implementation of the paper: "Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis"
