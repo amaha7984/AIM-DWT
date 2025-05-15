@@ -43,7 +43,7 @@ python3.9 train.py --train_path ./datasets/train/ --val_path ./datasets/val/ --t
 The model's weight will be stored at `./saved_models/`.
 
 - Pretrained Weights:
-  Pretrained weights can be downloaded from [https://drive.google.com/drive/folders/1Ix80ZY6D1D8bbiBRDNjVEQu1rTYdWapL?usp=sharing](pretrained_weights)
+  Pretrained weights can be downloaded from [pretrained_weights](https://drive.google.com/drive/folders/1Ix80ZY6D1D8bbiBRDNjVEQu1rTYdWapL?usp=sharing)
 
 - Test the AIM-DWT:
 ```bash
