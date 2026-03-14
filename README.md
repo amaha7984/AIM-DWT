@@ -4,6 +4,7 @@
  <img src="./docs/AIM-DWT_Architecture.png" alt="Preview" width="95%" />
 </p>
 
+## [paper](https://openaccess.thecvf.com/content/WACV2026W/SAFE-2026/html/Mahara_Forensic_Detection_of_Generated_MRI_Imagery_Using_Autoregressive_Modeling_and_WACVW_2026_paper.html)
 
 ## Code
 Official implementation of the paper: "Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis"
