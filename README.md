@@ -59,6 +59,21 @@ folder/
 
 ---
 
+### Citation
+
+If you find this repository useful for your research, please consider citing our work:
+
+```bibtex
+@InProceedings{Mahara_2026_WACV,
+    author    = {Mahara, Arpan and Rishe, Naphtali and Adjouadi, Malek},
+    title     = {Forensic Detection of Generated MRI Imagery Using Autoregressive Modeling and Frequency Analysis},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {March},
+    year      = {2026},
+    pages     = {222-231}
+}
+```
+
 ### Acknowledgment
 
 This work builds upon the ideas presented in the paper:  
