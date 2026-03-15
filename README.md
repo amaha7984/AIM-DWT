@@ -25,7 +25,7 @@ The implementation covers two major components:
 
 - Clone the repository:
    ```bash
-   git clone https://github.com/xxxxx/AIM-DWT.git
+   git clone https://github.com/amaha7984/AIM-DWT.git
    cd AIM-DWT
    ```
 - Create a Python virtual environment (optional)
