@@ -32,10 +32,10 @@ class AIMClassificationModel(nn.Module):
         xD = self.base_model(xD)
 
         # Apply Attention Pooling on the processed subbands
-        Yl = self.attention_pool(self.base_model(Yl))
-        xH = self.attention_pool(self.base_model(xH))
-        xV = self.attention_pool(self.base_model(xV))
-        xD = self.attention_pool(self.base_model(xD))
+        Yl = self.attention_pool(Yl)
+        xH = self.attention_pool(xH)
+        xV = self.attention_pool(xV)
+        xD = self.attention_pool(xD)
 
         x = torch.cat([Yl, xH, xV, xD], dim=1)
         return self.fc(x)
